@@ -1,5 +1,23 @@
 # apidoc2MCP
 
+[English](#english) | [中文](#中文)
+
+# English
+
+A tool for converting API documentation into MCP services, making it easier to generate API call code directly in various AI Coding IDEs.
+
+# Design Concept
+
+## Process
+
+1. User inputs API documentation (in the form of links, files, etc.)
+2. Parse different documentation formats to generate unified OpenAPI specification
+3. Generate MCP services based on OpenAPI content according to the MCP protocol
+
+---
+
+# 中文
+
 用于将接口文档转换为MCP服务，便于在各个AI Coding IDE中接入直接生成接口调用代码。
 
 # 设计思路

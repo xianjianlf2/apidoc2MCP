@@ -1,0 +1,43 @@
+{
+  "name": "apidoc2mcp",
+  "version": "1.0.0",
+  "description": "Convert API documentation to MCP services",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "debug": "ts-node src/debug-example.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "api",
+    "documentation",
+    "openapi",
+    "swagger",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.12",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
